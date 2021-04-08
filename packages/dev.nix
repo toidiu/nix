@@ -1,0 +1,48 @@
+{ config, lib, pkgs, ... }:
+
+{
+  environment.systemPackages = with pkgs; [
+    coreutils
+    gawk
+    gcc
+    llvm_11
+    clang_11
+    clang-tools
+    cmake
+    gnumake
+    nodejs-12_x
+    yarn
+    tree
+    inotify-tools
+    tmux
+    python3
+    binutils-unwrapped
+    awscli
+    psmisc
+    rustup
+    jq
+    capnproto
+    openssl
+    openssl.dev
+    openssl.debug
+    pkgconfig
+    gnuplot
+    valgrind
+    hotspot
+    linuxPackages.perf
+    wabt
+    binaryen
+    closurecompiler
+    terraform
+    overmind
+    scrot
+    ngrok-2
+    libgnome-keyring
+    dbus
+    gmp6
+    docker-compose
+    tshark
+    wireshark
+    nixpkgs-fmt
+  ];
+}
