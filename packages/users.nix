@@ -12,10 +12,10 @@ in
       root = {
         hashedPassword = "...";
       };
-      cameron = {
+      toidiu = {
         isNormalUser = true;
-        home = "/home/cameron";
-        description = "Cameron Bytheway";
+        home = "/home/toidiu";
+        description = "Apoorv Kothari";
         extraGroups = [
           "docker"
           "wheel"
@@ -26,7 +26,7 @@ in
     };
   };
 
-  home-manager.users.cameron = {
+  home-manager.users.toidiu = {
     home.sessionVariables = {
       EDITOR = "nvim";
       PKG_CONFIG_PATH = "${pkgs.openssl.dev.outPath}/lib/pkgconfig";

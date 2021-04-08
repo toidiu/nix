@@ -10,7 +10,7 @@
     supercollider
   ];
 
-  users.users.cameron.extraGroups = [ "audio" ];
+  users.users.toidiu.extraGroups = [ "audio" ];
 
   sound.enable = true;
   hardware.pulseaudio = {

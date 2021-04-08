@@ -31,7 +31,7 @@ in
     description = "Start sccache server";
     serviceConfig = {
       Type = "forking";
-      User = "cameron";
+      User = "toidiu";
       ExecStart = "${pkgs.sccache.outPath}/bin/sccache --start-server";
       ExecStop = "${pkgs.sccache.outPath}/bin/sccache --stop-server";
     };
